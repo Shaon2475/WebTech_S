@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab Task 1.1 - Introduction to CSS</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #mainTitle {
+            color: blue;
+            text-align: center;
+            padding: 10px;
+        }
+        p {
+            font-size: 18px;
+            margin: 15px;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Inline CSS -->
+    <h1 id="mainTitle" style="background-color: lightgray;">
+        Welcome to CSS Lab Task 1.1
+    </h1>
+
+    <p>This is a normal paragraph using element selector.</p>
+
+    <p class="highlight">
+        This paragraph uses class selector (.highlight).
+    </p>
+
+</body>
+</html>
