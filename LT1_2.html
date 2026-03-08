@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab Task 003 - JavaScript Basics</title>
+</head>
+<body>
+
+    <h2>Lab Task 03: JavaScript Basics and User Interaction</h2>
+    <div id="output"></div>
+
+    <script>
+        
+        alert("Welcome to JavaScript Lab Task 03!");
+        console.log("Welcome to JavaScript Lab Task 03!");
+        document.write("<h3>Welcome to JavaScript Lab Task 01!</h3>");
+        
+        var studentName = "Salauddin Shaon";
+        var studentAge = 22;
+        var nextYearAge = studentAge + 1;
+
+        var studentInfo = "Student Name: " + studentName + "<br>" +
+                          "Current Age: " + studentAge + "<br>" +
+                          "Next Year Age: " + nextYearAge + "<br>";
+
+        document.write("<h3>Part B Output:</h3>");
+        document.write(studentInfo);
+
+
+        var num1 = prompt("Enter first number:");
+        var num2 = prompt("Enter second number:");
+
+        num1 = Number(num1);
+        num2 = Number(num2);
+
+        var sum = num1 + num2;
+        var difference = num1 - num2;
+        var product = num1 * num2;
+
+        document.write("<h3>Part C Output:</h3>");
+        document.write("Sum: " + sum + "<br>");
+        document.write("Difference: " + difference + "<br>");
+        document.write("Product: " + product + "<br>");
+
+
+        var checkNumber = prompt("Enter a number to check Even or Odd:");
+        checkNumber = parseInt(checkNumber);
+
+        document.write("<h3>Part D Output:</h3>");
+
+        if (checkNumber % 2 === 0) {
+            document.write(checkNumber + " is Even.");
+        } else {
+            document.write(checkNumber + " is Odd.");
+        }
+
+    </script>
+
+</body>
+</html>
