@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shaon Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2 class="logo">Shaon</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<button id="themeToggle">🌙</button>
+
+</nav>
+
+</header>
+
+<main>
+
+<!-- HOME SECTION -->
+
+<section id="home" class="hero">
+
+<h1>Hello, I'm Shaon</h1>
+
+<h2 id="typing-text"></h2>
+
+<p>
+I am a beginner Front-End Developer learning HTML, CSS and JavaScript
+and building small web projects.
+</p>
+
+<div class="social-links">
+
+<p>
+GitHub:
+<a href="https://github.com/Shaon2475" target="_blank">
+https://github.com/Shaon2475
+</a>
+</p>
+
+</div>
+
+<a href="#projects" class="btn">View My Work</a>
+</section>
+<!-- PROJECTS -->
+
+<section id="projects">
+<h2 class="section-title">My Projects</h2>
+<div id="projectContainer"></div>
+</section>
+<!-- CONTACT -->
+<section id="contact">
+<h2 class="section-title">Contact Me</h2>
+<p>
+Email:
+<a href="mailto:mollahshaon142@gmail.com">
+mollahshaon142@gmail.com
+</a>
+</p>
+<p>
+Phone:
+<a href="tel:01401668500">
+01401668500
+</a>
+</p>
+<br>
+<form id="contactForm">
+<input type="text" id="name" placeholder="Name">
+<span id="nameError"></span>
+<input type="email" id="email" placeholder="Email">
+<span id="emailError"></span>
+<input type="text" id="subject" placeholder="Subject">
+<span id="subjectError"></span>
+<textarea id="message" placeholder="Message"></textarea>
+<span id="messageError"></span>
+<button type="submit" class="btn">Send Message</button>
+</form>
+</section>
+</main>
+<button id="topBtn">↑</button>
+<footer>
+<p>© 2026 Shaon Portfolio</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
